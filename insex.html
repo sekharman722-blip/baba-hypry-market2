@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="hi">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Baba Hyper Market – Online Store</title>
+    <link rel="stylesheet" href="styles.css" />
+
+
+</head>
+
+<body>
+    <!-- Top Nav -->
+    <header class="topbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <span class="cube3d" aria-hidden="true"></span>
+                <h1>Baba <span>Hyper</span> Market</h1>
+            </div>
+
+            <form class="search">
+                <input type="search" placeholder="Search for oil, chips, fruits, milk…" aria-label="Search products">
+                <button type="submit">Search</button>
+            </form>
+
+            <nav class="links">
+                <a href="#">Deals</a>
+                <a href="#">Orders</a>
+                <a href="#">Cart (0)</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO with your birthday photo background -->
+    <section class="hero">
+        <div class="hero-glass container">
+            <h2 class="hero-title" data-tilt>
+                Welcome to <span>Baba Hyper Market</span>
+            </h2>
+            <p>Daily essentials • Fresh fruits • Best prices • Fast delivery</p>
+            <div class="hero-cta">
+                <a class="btn primary" href="#shop">Shop Now</a>
+                <a class="btn ghost" href="#deals">Today’s Deals</a>
+            </div>
+        </div>
+        <!-- NOTE: Put your birthday photo in /assets/birthday.jpg -->
+    </section>
+
+    <!-- Category Tabs (pure CSS radio tabs, click works on mobile too) -->
+    <section id="shop" class="container">
+        <div class="tabs">
+            <input checked type="radio" id="tab1" name="cats">
+            <label for="tab1">All</label>
+
+            <input type="radio" id="tab2" name="cats">
+            <label for="tab2">Cooking Oil</label>
+
+            <input type="radio" id="tab3" name="cats">
+            <label for="tab3">Pickles & Beans</label>
+
+            <input type="radio" id="tab4" name="cats">
+            <label for="tab4">Chips & Snacks</label>
+
+            <input type="radio" id="tab5" name="cats">
+            <label for="tab5">Fresh Fruits</label>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="grid">
+            <!-- OIL -->
+            <article class="card" data-cat="oil">
+                <img src="IMG-20251107-WA0017.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Extra Virgin Olive Oil 750ml to 1 littar</h3>
+                    <p class="price">OMR 3.900</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="card" data-cat="oil">
+                <img src="IMG-20251107-WA0016.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Extra Virgin fresh fruit all Category</h3>
+                    <p class="price">OMR 2.750</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- PICKLES / BEANS -->
+            <article class="card" data-cat="pickles">
+                <img src="chiken.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Gherkin Pickles 500g</h3>
+                    <p class="price">OMR 1.200</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="card" data-cat="pickles">
+                <img src="bred.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Canned Beans 400g</h3>
+                    <p class="price">OMR 0.450</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- CHIPS -->
+            <article class="card" data-cat="chips">
+                <img src="poteto.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Potato Chips Family Pack</h3>
+                    <p class="price">OMR 0.850</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="card" data-cat="chips">
+                <img src="IMG-20251107-WA0012.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Assorted Snack Combo</h3>
+                    <p class="price">OMR 1.450</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- FRUITS -->
+            <article class="card" data-cat="fruits">
+                <img src="IMG-20251107-WA0013.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Fresh Fruit Basket – Small</h3>
+                    <p class="price">OMR 2.900</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="card" data-cat="fruits">
+                <img src="IMG-20251107-WA0014.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Fresh Fruit Basket – Large</h3>
+                    <p class="price">OMR 4.900</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- MILK / MARKET -->
+            <article class="card" data-cat="milk">
+                <img src="miiii.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Fresh Milk 1L</h3>
+                    <p class="price">OMR 0.650</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+
+            <article class="card" data-cat="milk">
+                <img src="bred.jpg" alt="width height example" width="150" height="150">
+                <div class="info">
+                    <h3>Breakfast Combo Pack</h3>
+                    <p class="price">OMR 2.300</p>
+                    <button>Add to Cart</button>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="y"></span> Baba Hyper Market • Built with ♥ for Arman ji</p>
+            <p>Contact: support@babahyper.example • +968-0000-0000</p>
+        </div>
+    </footer>
+
+    <script>
+        // Year auto-fill
+        document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
